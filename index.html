@@ -1,0 +1,32 @@
+<html>
+  <head>
+      <title>Calculator</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="calculator-container">
+      <div id="display">0</div>
+      <div id="calculator-box">
+        <button style="width: 100px; height: 50px; background-color: darkred;" onclick="cl()" id="clear">AC</button>
+        <button style="width: 50px; height: 50px; background-color: gray;" onclick="fun1('/')" id="divide">/</button>
+        <button style="width: 50px; height: 50px; background-color: gray;" onclick="fun1('*')" id="multiply">*</button>
+        <button style="width: 50px; height: 50px; background-color: dimgray;" onclick="fun1(7)" id="seven">7</button>
+        <button style="width: 50px; height: 50px; background-color: dimgray" onclick="fun1(8)" id="eight">8</button>
+        <button style="width: 50px; height: 50px; background-color: dimgray" onclick="fun1(9)" id="nine">9</button>
+        <button style="width: 50px; height: 50px; background-color: gray;" onclick="fun1('-')" id="subtract">-</button>
+        <button style="width: 50px; height: 50px; background-color: dimgray" onclick="fun1(4)" id="four">4</button>
+        <button style="width: 50px; height: 50px; background-color: dimgray" onclick="fun1(5)" id="five">5</button>
+        <button style="width: 50px; height: 50px; background-color: dimgray" onclick="fun1(6)" id="six">6</button>
+        <button style="width: 50px; height: 50px; background-color: gray;" onclick="fun1('+')" id="add">+</button>
+        <button style="width: 50px; height: 50px; background-color: dimgray" onclick="fun1(1)" id="one">1</button>
+        <button style="width: 50px; height: 50px; background-color: dimgray" onclick="fun1(2)" id="two">2</button>
+        <button style="width: 50px; height: 50px; background-color: dimgray" onclick="fun1(3)" id="three">3</button>
+        <button style="width: 50px; height: 100px; background-color: darkblue" onclick="eq()" id="equals">=</button>
+        <button style="width: 100px; height: 50px; background-color: dimgray; margin-top: -50px; margin-left: -50px;" onclick="fun1(0)" id="zero">0</button>
+        <button style="width: 50px; height: 50px; background-color: dimgray; margin-top: -50px" onclick="fun1('.')" id="decimal">.</button>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
